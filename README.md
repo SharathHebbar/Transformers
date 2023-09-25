@@ -1,5 +1,7 @@
 # Transformers
 
+Reference: [Transformers-An Intuition](https://medium.com/@sharathhebbar24/transformers-an-intution-3ef6ef3b15f5)
+
 1. Encoder Only Models
 2. Decoder Only Models
 3. Encoder-Decoder Models
