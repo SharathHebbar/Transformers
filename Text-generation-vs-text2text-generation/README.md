@@ -1,6 +1,6 @@
 # Text Generation Models
 
-![gpt2](Text-generation-vs-text2text-generation\Text-generation\assets\gpt2.png)
+![gpt2](https://github.com/SharathHebbar/Transformers/blob/main/Text-generation-vs-text2text-generation/Text-generation/assets/gpt2.png)
 - Text Generation, also known as Causal Language Modeling, is the process of generating text that closely resembles human writing. 
 - It utilizes a Decoder-only architecture and operates in a left-to-right context.
 - Text Generation is often employed for tasks such as sentence completion and generating the next lines of poetry when given a few lines as input. 
@@ -10,7 +10,7 @@
 
 # Text2Text Generation Models
 
-![T5](Text-generation-vs-text2text-generation\Text2Text-generation\assets\t5.png)
+![T5](https://github.com/SharathHebbar/Transformers/blob/main/Text-generation-vs-text2text-generation/Text2Text-generation/assets/t5.png)
 - Text-to-Text Generation, also known as Sequence-to-Sequence Modeling, is the process of converting one piece of text into another.
 - It relies on an encoder-decoder architecture and operates in both right-to-left and left-to-right contexts.
 - Text-to-text generation is frequently employed for tasks such as translating English sentences into French or summarizing lengthy paragraphs.

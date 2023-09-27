@@ -11,5 +11,5 @@
 - It is also called Masked Language Modelling.
 - Examples of Masked Language Modelling / Encoder Only Models are BERT, RoBERTa, DistilBERT
 
-- Code [Fill-Mask](Encoder\fill-mask.ipynb)
-- Code [Sentiment-analysis](Encoder\sentiment-analysis.ipynb)
+- Code [Fill-Mask](https://github.com/SharathHebbar/Transformers/blob/main/Encoder/fill-mask.ipynb)
+- Code [Sentiment-analysis](https://github.com/SharathHebbar/Transformers/blob/main/Encoder/sentiment-analysis.ipynb)
