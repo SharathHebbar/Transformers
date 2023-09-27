@@ -10,3 +10,5 @@
 
 - It is also known as the Seq2Seq models
 - Examples of Sequence to Sequence Model/ Encoder-Decoder models are T5, BART
+
+- Code: [Encoder-Decoder](Encoder-decoder\text2text-generation.ipynb)

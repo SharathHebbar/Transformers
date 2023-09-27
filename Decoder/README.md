@@ -9,3 +9,5 @@
 
 - It is also called Causal Language Modelling.
 - Examples of Causal Language Modelling/ Decoder Only models are GPT, GPT-2, GPT-3, BLOOM, PaLM
+
+- Code: [Decoder-only](Decoder\text-generation.ipynb)
