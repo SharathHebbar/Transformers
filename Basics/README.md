@@ -1,5 +1,16 @@
 # Basics of Transformers
 
+# Codes
+
+1. Tokenizer
+2. Embeddings
+3. Semantic Similarity between sentences using BERT
+4. Extractive Question and Answer using Bi-directional Encoder Representation Transformer
+5. Instruction following using Generative Pre-trained Transformer
+6. Product Reviews using Text To Text Transfer Transformer
+
+<hr>
+
 # BERT (Bi-directional Encoder Representation Transformers)
 
 ## Abbreviation
@@ -8,6 +19,12 @@
 - Encoder: Encoder Only Architecture
 - Representation: Creates meaningful word representation
 - Transformer: Based on Transformer Architecture
+
+## Overview
+
+- Encoder Only model
+- Stacked Encoders
+- Bi-directional contexts
 
 ## Tasks
 
@@ -27,6 +44,7 @@ Sentence A: I bought a mobile phone
 Sentence B: There was a sale for mobile phones
 
 ## Use Cases
+
 1. Text Classification
 2. Named Entity Recognition
 3. Extractive Question Answering
@@ -34,10 +52,70 @@ Sentence B: There was a sale for mobile phones
 
 <hr>
 
-# Codes
-1. Tokenizer
-2. Embeddings
-3. Semantic Similarity between sentences using BERT
-4. Extractive Question and Answer using Bi-directional Encoder Representation Transformer
-5. Instruction following using Generative Pre-trained Transformer
-6. Product Reviews using Text To Text Transfer Transformer
+# GPT (Generative Pre-trained Transformers)
+
+## Abbreviation
+
+- Generative: It generates text
+- Pre-trained: As it is pre-trained
+- Transformer: Based on Transformer Architecture
+
+## Overview
+
+- Coherent and contextually relevant text
+- Decoder Only
+- Stacked Decoder
+- Unidirectional Provisioning
+
+## Tasks
+
+1. Causal Language Modelling (CLM)
+1.1 Predicts next word in a sentence 
+1.2 GPT's task is to predict next word in a sentence
+
+## Use Cases
+
+1. Text Generation
+2. Machine Translation
+3. Summarization
+
+<hr>
+
+# T5 (Text To Text Transfer Transformers)
+
+## Abbreviation
+
+- Text To Text (Text2Text): The input and output of the model will be text
+- Transfer: T5 transfers pre-training knowledge to various tasks (kind of foundational model) 
+- Transformer: Based on Transformer Architecture
+
+## Overview
+
+- Flexible and Adaptable
+- Encoder and Decoder
+- Text to text approach
+- Task specific prefixes
+
+1. Based on original Transformers architecture
+2. Blending BERT's and GPT's pre-training approaches
+3. Unifying BERT's objective to predict missing words with valuable context
+4. Incorporating GPT's <b>AutoRegressive</b> generation for fluent multi-word output 
+
+## Tasks
+
+1. Fill in the blank Text Generation
+1.1 Corrupt pieces of a sentence
+1.2 T5's task is to fill in the gaps to match the context
+1.3 The outcome is to learn word relationships and context understanding
+
+- Task specific prefixes: "Can you convert this text to French language: Hello, How are you"
+
+## Use Cases
+
+1. Machine Translation
+2. Keyword Generation
+3. Summarization
+4. Abstractive Question Answering
+
+<hr>
+
