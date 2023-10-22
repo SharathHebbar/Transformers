@@ -29,13 +29,13 @@
 ## Tasks
 
 1. Masked Language Modelling (MLM)
-1.1. Randomly maskees words in a sentence 
-1.2. BERT's task is to predict masked words using context
-1.3. The outcome is to learn word relationships and context understanding
+    - Randomly maskees words in a sentence 
+    - BERT's task is to predict masked words using context
+    - The outcome is to learn word relationships and context understanding
 
 2. Next Sentence Prediction (NSP)
-2.1. Focus on learning sentence relationship
-2.2. BERT's task is to determine if second sentence follows first naturally
+    - Focus on learning sentence relationship
+    - BERT's task is to determine if second sentence follows first naturally
 
 Example:
 
@@ -70,8 +70,8 @@ Sentence B: There was a sale for mobile phones
 ## Tasks
 
 1. Causal Language Modelling (CLM)
-1.1. Predicts next word in a sentence 
-1.2. GPT's task is to predict next word in a sentence
+    - Predicts next word in a sentence 
+    - GPT's task is to predict next word in a sentence
 
 ## Use Cases
 
@@ -104,9 +104,9 @@ Sentence B: There was a sale for mobile phones
 ## Tasks
 
 1. Fill in the blank Text Generation
-1.1. Corrupt pieces of a sentence
-1.2. T5's task is to fill in the gaps to match the context
-1.3. The outcome is to learn word relationships and context understanding
+    - Corrupt pieces of a sentence
+    - T5's task is to fill in the gaps to match the context
+    - The outcome is to learn word relationships and context understanding
 
 - Task specific prefixes: "Can you convert this text to French language: Hello, How are you"
 
