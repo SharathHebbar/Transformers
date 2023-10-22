@@ -4,10 +4,10 @@
 
 1. Tokenizer
 2. Embeddings
-3. Semantic Similarity between sentences using BERT
-4. Extractive Question and Answer using Bi-directional Encoder Representation Transformer
-5. Instruction following using Generative Pre-trained Transformer
-6. Product Reviews using Text To Text Transfer Transformer
+3. Semantic Similarity between sentences using ```BERT```
+4. Extractive Question and Answer using ```Bi-directional Encoder Representation Transformer```
+5. Instruction following using ```Generative Pre-trained Transformer```
+6. Product Reviews using ```Text To Text Transfer Transformer```
 
 <hr>
 
@@ -40,8 +40,8 @@
 Example:
 
 - Here the Sentence A follows Sentence B
-Sentence A: I bought a mobile phone
-Sentence B: There was a sale for mobile phones
+    - Sentence A: I bought a mobile phone
+    - Sentence B: There was a sale for mobile phones
 
 ## Use Cases
 
