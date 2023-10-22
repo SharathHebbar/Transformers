@@ -2,8 +2,8 @@
 
 # Codes
 
-1. Tokenizer
-2. Embeddings
+1. Tokenizer using ```BERT```
+2. Embeddings using ```BERT```
 3. Semantic Similarity between sentences using ```BERT```
 4. Extractive Question and Answer using ```Bi-directional Encoder Representation Transformer```
 5. Instruction following using ```Generative Pre-trained Transformer```
