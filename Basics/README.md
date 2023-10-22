@@ -4,7 +4,7 @@
 
 1. Tokenizer using ```BERT```
 2. Embeddings using ```BERT```
-3. Semantic Similarity between sentences using ```BERT```
+3. Semantic Search Index using ```BERT```
 4. Extractive Question and Answer using ```Bi-directional Encoder Representation Transformer```
 5. Instruction following using ```Generative Pre-trained Transformer```
 6. Product Reviews using ```Text To Text Transfer Transformer```
