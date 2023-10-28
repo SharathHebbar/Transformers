@@ -2,7 +2,7 @@
 
 # Codes
 
-1. Tokenizer using ```BERT```
+1. [Tokenizer using ```BERT```](https://github.com/SharathHebbar/Transformers/blob/main/Basics/1.%20Tokenizer.ipynb)
 2. Embeddings using ```BERT```
 3. Semantic Search Index using ```BERT```
 4. Tokenization, Positional Encoding and Self Attention using ```BERT``` 
