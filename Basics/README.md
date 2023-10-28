@@ -3,12 +3,12 @@
 # Codes
 
 1. [Tokenizer using ```BERT```](https://github.com/SharathHebbar/Transformers/blob/main/Basics/1.%20Tokenizer.ipynb)
-2. Embeddings using ```BERT```
-3. Semantic Search Index using ```BERT```
-4. Tokenization, Positional Encoding and Self Attention using ```BERT``` 
-5. Extractive Question and Answer using ```Bi-directional Encoder Representation Transformer```
-6. Instruction following using ```Generative Pre-trained Transformer```
-7. Product Reviews using ```Text To Text Transfer Transformer```
+2. [Embeddings using ```BERT```](https://github.com/SharathHebbar/Transformers/blob/main/Basics/2.%20Word_Embeddings.ipynb)
+3. [Semantic Search Index using ```BERT```](https://github.com/SharathHebbar/Transformers/blob/main/Basics/3.%20Semantic_Search_Index.ipynb)
+4. [Tokenization, Positional Encoding and Self Attention using ```BERT```](https://github.com/SharathHebbar/Transformers/blob/main/Basics/4.%20Tokenization%2C%20Positional_Encoding%20and%20self_attention.ipynb)
+5. [Extractive Question and Answer using ```Bi-directional Encoder Representation Transformer```](https://github.com/SharathHebbar/Transformers/blob/main/Basics/5_Extractive_QnA_using_BERT.ipynb)
+6. [Instruction following using ```Generative Pre-trained Transformer```](https://github.com/SharathHebbar/Transformers/blob/main/Basics/6_Instruction_following_using_GPT.ipynb)
+7. [Product Reviews using ```Text To Text Transfer Transformer```]()
 
 <hr>
 
