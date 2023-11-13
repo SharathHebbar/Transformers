@@ -1,36 +1,36 @@
 # Hyperparameters
 
-    ## Important Hyperparameters to watch out
+## Important Hyperparameters to watch out
 
-    1. Temperature: - ```temperature```
+1. Temperature: - ```temperature```
 
-    It controls the degree of randomness in token selection. Lower temperatures are good for prompts that expect a true or correct response, while higher temperatures can lead to more diverse or unexpected results. With a temperature of 0 the highest probability token is always selected. For most use cases, try starting with a temperature of 0.2.
+It controls the degree of randomness in token selection. Lower temperatures are good for prompts that expect a true or correct response, while higher temperatures can lead to more diverse or unexpected results. With a temperature of 0 the highest probability token is always selected. For most use cases, try starting with a temperature of 0.2.
 
-    2. Token Limit: - ```max_new_tokens```
+2. Token Limit: - ```max_new_tokens```
 
-    It determines the maximum amount of text output from one prompt.
+It determines the maximum amount of text output from one prompt.
 
-    3. Top-k: - ```top_k```
+3. Top-k: - ```top_k```
 
-    It changes how the model selects tokens from output. A top-k of 1 means the selected token is most probable among all tokens in the model's vocabulary (also called as greedy decoding), while a top-k of 3 means that the next token is selected from among the 3 most probable tokens (using temperature).
+It changes how the model selects tokens from output. A top-k of 1 means the selected token is most probable among all tokens in the model's vocabulary (also called as greedy decoding), while a top-k of 3 means that the next token is selected from among the 3 most probable tokens (using temperature).
 
-    4. Top-p: ```top_p```
+4. Top-p: ```top_p```
 
-    It changes how the model selects tokens for output. Tokens are selected from most probable to least until the sum of their probabilities equals to top-p value. For example, if tokens A, B and C have a probability of 0.3, 0.2 and 0.1 and the top-p value is 0.5, then the model will select either A or B as the next token (using temperature).
+It changes how the model selects tokens for output. Tokens are selected from most probable to least until the sum of their probabilities equals to top-p value. For example, if tokens A, B and C have a probability of 0.3, 0.2 and 0.1 and the top-p value is 0.5, then the model will select either A or B as the next token (using temperature).
 
-    5. Stop Sequence:
+5. Stop Sequence:
 
-    A stop sequence is a series of characters that stops the response generation if the model encounters it. The sequence is not included as a part of the response.
+A stop sequence is a series of characters that stops the response generation if the model encounters it. The sequence is not included as a part of the response.
 
-    6. Block Abusive Words:
+6. Block Abusive Words:
 
-    Adjusts how likely you are to see responses that could be harmful. Model responses are blocked based on the probability that it contains violent, sexual, toxic or derogatory content.
+Adjusts how likely you are to see responses that could be harmful. Model responses are blocked based on the probability that it contains violent, sexual, toxic or derogatory content.
 
-    7. Return response:
+7. Return response:
 
-    The maximum number of model responses generated per prompt. Responses can still be blocked due to safety filters.
+The maximum number of model responses generated per prompt. Responses can still be blocked due to safety filters.
 
-    **Note: All these parameters cannot be applied to all the models make sure to do your research before trying out with the hyperparameters.**
+**Note: All these parameters cannot be applied to all the models make sure to do your research before trying out with the hyperparameters.**
 
 ## Parameters that can control the length of output
 
