@@ -30,7 +30,7 @@
 
     The maximum number of model responses generated per prompt. Responses can still be blocked due to safety filters.
 
-    **Note: All those parameters cannot be applied to all the models make sure to do your research before trying out with the hyperparameters.**
+    **Note: All these parameters cannot be applied to all the models make sure to do your research before trying out with the hyperparameters.**
 
 ## Parameters that can control the length of output
 
