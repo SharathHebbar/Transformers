@@ -1,5 +1,17 @@
 # Hyperparameters
 
+## Gist
+
+1. Temperature: - ```temperature```
+
+It controls the degree of randomness in token selection. Lower the temperattures are good for prompts that expect a true or correct response, while higher temperatures can lead to more diverse or unexpected results. With a temperature of 0 the highest probability token is always selected. For most use cases, try starting with a temperature of 0.2.
+2. Token Limit: - ```max_new_tokens```
+
+It determines the maximum amount of text output from one prompt.
+3. Top-k: - ```do_sample```
+
+It changes how the model selects tokens from output. A top-k of 1 means the selected token is most probable among all tokens in the model's vocabulary (also called as greedy decoding), while a top-k of 3 means that the next token is selected from among the 3 most probable tokens (using temperature).
+
 
 ## Parameters that can control the length of output
 
