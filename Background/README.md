@@ -36,8 +36,25 @@
 
 </table>
 
+## Components
+
+The transformers are made up of
+1. Attention Mechanism
+2. Multi-Headed Attention
+3. Positional Encoding
+4. Layer Normalization
+5. Residual Connection
+6. Feed forward neural networks
+7. Linear Transformation
+8. Activation Function
+9. Parameter Sharing
+
 ## Attention Mechanism 
 
 - Score Calculation: score(Q, K) = QK<sup>T</sup>
 - Softmax Normalization: softmax(x<sub>i</sub>) = exp(x<sub>i</sub>) / Σ exp(x<sub>j</sub>)
+- Weighted Sum: Attention(Q, K, V) = softmax(QK<sup>T</sup>)V
 
+## Multi-Headed Attention
+
+## Positional Encoding
