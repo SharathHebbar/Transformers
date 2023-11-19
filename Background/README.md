@@ -38,4 +38,4 @@
 
 ## Attention Mechanism 
 
-Score Calculation: score(Q, K) = QK^T
+Score Calculation: score(Q, K) = QK<sup>T</sup>
