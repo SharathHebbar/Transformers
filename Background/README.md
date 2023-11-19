@@ -39,4 +39,6 @@
 ## Attention Mechanism 
 
 - Score Calculation: score(Q, K) = QK<sup>T</sup>
-- Softmax Normalization: softmax(x<sub>i</sub>) = exp(x<sub>i</sub>)  \sum_{i=1}^n a_j
+- Softmax Normalization: softmax(x<sub>i</sub>) = exp(x<sub>i</sub>) / exp(x<sub>j</sub>)
+
+\[ P(y_i) = \frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}} \]
