@@ -50,7 +50,7 @@ The transformers architecture is made up of
 9. Output Linear Layer: Converts the decoder's output into logits for each token in the target vocabulary.
 10. Softmax Layer: Applied to the logits to produce probabilities for each token in the target vocabulary.
 
-## The Attention Mechanism
+## Explanation
 1. Self Attention: Enables the model to weigh the importance of word-pairs relative to one another and understand relationships between words.
 2. Scaled dot-product attention: Computes attention scores between words in a sequence throught dot products, scaling and softmax.
 3. Multi-head attention: Employs multiple heads to simultaneously capture different aspects of input data such as syntactic and semantic realtionships for a more comprehensive understanding.
