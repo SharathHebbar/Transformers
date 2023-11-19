@@ -1,5 +1,7 @@
 # Background
 
+## Transformers v/s LSTM
+
 <table>
 
 <tr>
@@ -33,3 +35,7 @@
 </tr>
 
 </table>
+
+## Attention Mechanism 
+
+Score Calculation: score(Q, K) = QK^T
