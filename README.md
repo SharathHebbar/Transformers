@@ -4,8 +4,12 @@
 
 ## Articles
 
-- Reference: [Transformers-An Intuition](https://medium.com/@sharathhebbar24/transformers-an-intution-3ef6ef3b15f5)
-- Reference: [Text Generation v/s Text2Text Generation](https://medium.com/@sharathhebbar24/text-generation-v-s-text2text-generation-3a2b235ac19b)
+- [Transformers-An Intuition](https://medium.com/@sharathhebbar24/transformers-an-intution-3ef6ef3b15f5)
+- [Text Generation v/s Text2Text Generation](https://medium.com/@sharathhebbar24/text-generation-v-s-text2text-generation-3a2b235ac19b)
+- [LLMs Parameters](https://medium.com/@sharathhebbar24/demystifying-the-parameters-that-affect-the-output-of-large-language-models-1c99c22b6e28)
+- [BERT: Overview](https://medium.com/@sharathhebbar24/bert-6b2dff0689af)
+- [GPT: Overview](https://medium.com/@sharathhebbar24/gpt-overview-cdff827c789e)
+- [T5: Overview](https://medium.com/@sharathhebbar24/t5-overview-05327690fa93)
 
 ## Repository Contents
 
